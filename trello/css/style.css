@@ -1,0 +1,26 @@
+/*header*/
+.logo{
+	
+	width: 50%;
+}
+
+.logoTrello{
+	width: 55%;
+}
+.tab{
+	font-size: ;
+}
+.casilla{
+	margin-top: 30%;
+	margin-left: 20%;
+}
+
+pre{
+	margin-top: 5%;
+	padding-top: 5%;
+}
+/*section*/
+
+.azul{
+	background-color: blue;
+}

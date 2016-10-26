@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  	<meta charset="utf-8">							
+	  	<!--  AGREGAR LINKS-->
+	  	<link rel="stylesheet" href="css/font-awesome.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- para que funcione el codigo a escala -->
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/utilities.css">
+		<title>Nombre</title>
+	</head>
+	<body>
+		<div class="container-fluid pull-right">
+			<header>
+				<div class="row grayclair pt-5"> 
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						<h1 class="text-center text-black ">TODO APP</h1>
+					</div>
+				</div>
+	
+			</header>
+
+			<section>
+				<div class="container-fluid text-center"> 
+					<div class="row pt-5 "> 
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<textarea id="listaTarea" rows="4" cols="50" placeholder="Escribir..."></textarea>
+						</div>
+					</div>
+				</div>	
+			</section>
+
+			<section>
+				<div class="container "> 
+					<div class="row pt-5"> 
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+							<button id="boton" type="button" class="btn btn-info" >
+								<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+								<p>Agregar</p>
+							</button>
+						</div>
+					</div>
+				</div>	
+			</section>
+
+			<section><!-- COMIENZA MI CHECKBOX -->
+				<div class="container">  
+					<div class="row pt-5 "> 
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<pre class="pre-scrollable text-left">
+								<ul id="listaUl" ></ul>
+							</pre>
+						</div>
+					</div>
+				</div>	
+			</section>
+			
+		</div>
+		<script src="js/main.js"> </script>	
+	</body>
+</html>
